@@ -6,7 +6,7 @@ def runplt():
    plt.figure()
    plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
    plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
-   plt.title("线性回归实验")
+   plt.title("Line Regression")
    plt.xlabel("x")
    plt.ylabel("y")
    plt.axis([0, 25, 0, 25])
